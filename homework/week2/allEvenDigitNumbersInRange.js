@@ -18,7 +18,7 @@ function areAllDigitsEven(num){
   let temp = num;
   while(temp > 0){
     let digit = temp % 10;
-    if (digit % 2 != 0 || digit == 1){
+    if (digit % 2 != 0 ){
       return false;
     } 
       temp = Math.floor(temp/10);
