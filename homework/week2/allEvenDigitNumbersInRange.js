@@ -1,7 +1,7 @@
 function allEvenDigitNumbersInRange(num1,num2){
   let arr = arrayFromRange(num1,num2)
   let result = arr.filter(item => areAllDigitsEven(item))
-  return result.length > 0 ? result : "Such numbers do not exist."
+  return result.length > 0 ? result.join() : "Such numbers do not exist."
                     
 }
   
